@@ -45,7 +45,14 @@ swarm.init();
 As of right now the available commands for the masterAccount are: 
 * $woot
 * $meh
-* $sendChat
+* $chat {{text}}
+
+For accounts with roles higher than bouncer
+* $speak {{text}}
+
+The bot also responds to the words:
+* "pause" IT will break out the word and submit it one letter at a time
+
 
 Extending
 ---
@@ -63,3 +70,8 @@ swarm.init({
 
 swarm.init();
 ```
+
+Road Map
+---
+* Permanent Mute ( delete chat by a specific user )
+* Auto Skip from banned list from google docs
