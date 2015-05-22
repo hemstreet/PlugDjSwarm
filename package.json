@@ -1,0 +1,12 @@
+{
+  "name": "plugDjBotnet",
+  "version": "1.0.0",
+  "description": "PlugDj botnet",
+  "main": "main.js",
+  "author": "Jon Hemstreet",
+  "license": "ISC",
+  "dependencies" : {
+    "plugapi" : "latest",
+    "underscore": "latest"
+  }
+}
