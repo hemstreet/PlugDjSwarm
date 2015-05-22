@@ -6,6 +6,7 @@
   "author": "Jon Hemstreet",
   "license": "ISC",
   "dependencies" : {
-    "plugapi" : "latest"
+    "plugapi" : "latest",
+    "underscore": "latest"
   }
 }
