@@ -55,6 +55,8 @@ You can customize the swarm by passing in a few options
 var swarm = require('./lib/swarm');
 
 swarm.init({
+    roomSlug: 'slugOfRoom',
+    masterAccount: 'NameOfYourUser',
     numBots : 1,
     command: '$',
 });
