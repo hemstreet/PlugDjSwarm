@@ -47,6 +47,15 @@ As of right now the available commands for the masterAccount are:
 * $meh
 * $sendChat
 
+Dependencies
+---
+
+You need to have underscore installed
+
+``` 
+npm install underscore
+```
+
 Extending
 ---
 You can customize the swarm by passing in a few options
