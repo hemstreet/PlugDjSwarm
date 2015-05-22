@@ -1,5 +1,4 @@
-var PlugAPI = require('plugapi');
-    swarm = require('./lib/swarm');
+var swarm = require('./lib/swarm');
 
 //swarm.init({
 //    numBots : 1,
